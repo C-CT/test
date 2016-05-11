@@ -1,0 +1,132 @@
+.fixed {
+/*            width: 1200px;*/
+            width:auto;
+            margin: auto;
+        }
+        nav {
+            background-color: #333;
+        }
+        nav ul {
+            margin: 0;
+            padding: 0;
+/*            float: right;*/
+        }
+        nav li {
+/*            float: left;*/
+            list-style: none;
+        }
+        nav a {
+            color:#eee;
+            text-decoration: none;
+            font-family: tahoma;
+            display: block;
+            height: 40px;
+            line-height: 40px;
+/*            padding-left: 20px;*/
+/*            padding-right: 20px;*/
+            text-align:center;  //新增文字置中
+            transition: all .3s;
+        }
+        nav a:hover {
+            background-color: #666;
+        }
+        .logo {
+/*            float: left;*/
+            width: 40px;
+            height: 40px;
+            margin:auto;     //logo置中
+            background-color: #fa0;
+        }
+        header {
+/*            height: 600px;*/
+            height: 200px;
+            background-image: url(images/wallpaper.jpg);
+            background-size: cover;
+            background-position: bottom;
+        }
+        #about {
+            padding-top: 100px;
+            padding-bottom: 100px;
+            background-color: #cce4ff;
+        }
+       
+        #about .box {
+            width: 90%;
+            margin:auto;
+/*            width: 370px;*/
+/*            float: left;*/
+/*            margin-left: 15px;*/
+/*            margin-right: 15px;*/
+        }
+        #about h1{
+            text-align:center; 
+            }  
+        #about p{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        #gallery .box {
+            width: 100%;
+            height: 300px;
+/*            float: left;*/
+            overflow: hidden;
+/*            margin-left: 15px;*/
+/*            margin-right: 15px;*/
+        }
+/*
+        #gallery .fixed {
+            width: 1170px;
+        }
+*/
+        #gallery .box img {
+            width:200%;
+        }
+        #service {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            background-color: #c4c4c4;
+        }
+        #service .box{
+            width: 260px;
+            height: 270px;
+/*            float: left;*/
+            overflow: hidden;
+/*            margin-left: 15px;*/
+/*            margin-right: 15px;*/
+            margin: auto;
+            margin-bottom: 20px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            box-shadow: 1px 1px 5px #000;
+            
+        }
+        #service .box img {
+            width:200%;
+        }
+        footer {
+            background-color: #333;
+            padding-top: 20px;
+            padding-bottom: 20px; 
+        }
+        footer .copyright {
+/*            float: left;*/
+           
+        }
+        footer .copyright p{
+            color: #fff;
+            text-align: center;
+        }
+        footer .sns {
+/*            float: right;*/
+            text-align: center;
+        }
+        footer .sns a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 15px;
+            transition: all .3s
+        }
+        footer .sns a:hover {
+            color: #aaa;
+        }
